@@ -269,7 +269,7 @@ if($hp > 0){
                     if ($club == 21) {
                         foreach (array(1, 2, 3, 4, 5, 6) as $imn)
                             //遍历所有武器装备
-                            if (strpos(${'itmk' . $imn}, 'D') === 0 || strpos(${'itmk' . $imn}, 'W') === 0) {
+                            if (strpos(${'itmk' . $imn}, 'D') === 0 || strpos(${'itmk' . $imn}, 'W') === 0 || strpos(${'itmk' . $imn}, 'T') === 0) {
                                 $position = $imn;
                                 break;
                             }
